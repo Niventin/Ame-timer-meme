@@ -22,9 +22,7 @@ body {
   justify-content: center;
   margin: 0;
   padding: 0;
-  background-image: #fff;
-  background-size: cover;
-  background-position: center center;
+  background-color: #fff;
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
@@ -102,5 +100,8 @@ p button {
 @media only screen and (max-width: 821px){
  #myVideo{
    display: none;
+ }
+ body{
+   background-color: rgb(250, 255, 183);
  }
 }
