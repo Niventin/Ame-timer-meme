@@ -22,7 +22,7 @@ body {
   justify-content: center;
   margin: 0;
   padding: 0;
-  background-image: url('https://pbs.twimg.com/media/E4g-Qa5XEAAkkcC?format=jpg&name=medium');
+  background-image: #fff;
   background-size: cover;
   background-position: center center;
   font-family: 'Open sans', sans-serif;
@@ -96,7 +96,11 @@ p button {
 }
 
 .mee {
-  z-index: 2;
-  position: absolute;
-  bottom: 330px;
+  z-index: 2; 
+}
+
+@media only screen and (max-width: 821px){
+ #myVideo{
+   display: none;
+ }
 }

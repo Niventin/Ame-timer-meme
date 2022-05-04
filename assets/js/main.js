@@ -42,7 +42,7 @@ function zeraRelogio() {
 
 function musicPlay(){
   document.querySelector('#player').play();
-  document.removeEventListener('click', musicPlay);
+  document.removeEventListener("click", musicPlay);
 }
 
 document.addEventListener("click", musicPlay);
