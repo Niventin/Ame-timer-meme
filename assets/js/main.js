@@ -40,7 +40,13 @@ function zeraRelogio() {
   relogio.classList.remove('pausado');
 }
 
-console.log(criaHoraDosSegundos(0));
+function musicPlay(){
+  document.querySelector('#player').play();
+  document.removeEventListener('click', musicPlay);
+}
+
+document.addEventListener("click", musicPlay);
+
 iniciar.addEventListener("click", function (event) {
   clearInterval(timer);
   iniciaRelogio();
